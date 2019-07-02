@@ -70,7 +70,7 @@ body {
 
 .title-work {
     all: unset;
-    text-align: center;
+    text-align: left;
     pointer-events: none;
     position: absolute;
     transform: translate(-50%, -50%);

@@ -150,3 +150,7 @@ $('.to-up').on('click', function () {
 $('.to-down').on('click', function () {
     vertSlide.slideNext();
 })
+
+
+// FadeInLeft
+TweenMax.from('.title-work', 5, {x:600, ease:Elastic.easeOut})

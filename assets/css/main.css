@@ -732,13 +732,13 @@ body {
 .title-work h2 {
     position: relative;
     overflow: hidden;
-    color: #fff;
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
-    font-size: 60px;
-    height: 80px;
+    color: #0C0C0C;
+    font-family: 'roboto', serif;
+    font-weight: 700;
+    font-size: 30px;
+    height: 3px;
     padding-left: 5px;
-    padding-right: 5px;
+    padding-right: 0px;
     margin: 0;
     font-style: italic;
 }
@@ -754,7 +754,6 @@ body {
     margin-top: 0px;
     margin-bottom: 20px;
 }
-
 ul.tag-work {
     padding: 0;
     margin: 0;
@@ -762,15 +761,15 @@ ul.tag-work {
 
 ul.tag-work li {
     display: inline;
-    color: #fff;
-    font-weight: 500;
-    margin-right: 25px;
-    font-size: 15px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+    margin-right: 35px;
+    font-size: 60px;
     line-height: 20px;
     /* font-style: italic; */
 }
 
-ul.tag-work li:not(:first-child)::before {
+/* ul.tag-work li:not(:first-child)::before {
     content: '';
     height: 7px;
     width: 7px;
@@ -779,7 +778,7 @@ ul.tag-work li:not(:first-child)::before {
     margin-top: 8px;
     margin-left: -17px;
     position: absolute;
-}
+} */
 
 
 .up-down {
@@ -901,7 +900,7 @@ button {
     margin: 0;
     width: 40px;
     height: 40px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 30px;
 }
 
@@ -911,7 +910,7 @@ button {
     top: 0;
     bottom: 0;
     margin: auto;
-    background: #fff;
+    background: #000;
 }
 
 .learn-more .circle .icon.arrow {
@@ -919,7 +918,7 @@ button {
     left: 10px;
     width: 15px;
     height: 2px;
-    background: #fff;
+    background: #000;
 }
 
 .learn-more .circle .icon.arrow::before {
@@ -929,8 +928,8 @@ button {
     right: 0.0625rem;
     width: 0.625rem;
     height: 0.625rem;
-    border-top: 2px solid #fff;
-    border-right: 2px solid #fff;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
@@ -944,7 +943,7 @@ button {
     bottom: 0;
     padding: 10px 0;
     margin: 0 0 0 25px;
-    color: #fff;
+    color: #000;
     font-size: 14px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
@@ -957,13 +956,13 @@ button {
 }
 
 .learn-more:hover .circle .icon.arrow {
-    background: #fff;
+    background: #000;
     -webkit-transform: translate(1rem, 0);
     transform: translate(1rem, 0);
 }
 
 .learn-more:hover .button-text {
-    color: #fff;
+    color: #000;
     margin-left: 45px;
     letter-spacing: 1px;
 }
