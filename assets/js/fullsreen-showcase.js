@@ -153,4 +153,8 @@ $('.to-down').on('click', function () {
 
 
 // FadeInLeft
-TweenMax.from('.title-work', 5, {x:600, ease:Elastic.easeOut})
+TweenMax.from(newFunction(), 5, {x:600, ease:Elastic.easeOut})
+
+function newFunction(){
+    return '.head-text';
+}
