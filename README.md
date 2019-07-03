@@ -1,3 +1,3 @@
 # crazywebs
 
-# website makes use TweenMax and ScrollMagic library.
+website makes use TweenMax and ScrollMagic library.
